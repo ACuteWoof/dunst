@@ -54,10 +54,10 @@
     separator_height = 2
 
     # Padding between text and separator.
-    padding = 3
+    padding = 8
 
     # Horizontal padding.
-    horizontal_padding = 3
+    horizontal_padding = 8
 
     # Defines width in pixels of frame around the notification window.
     # Set to 0 to disable.
@@ -178,10 +178,10 @@
     ### Misc/Advanced ###
 
     # dmenu path.
-    dmenu = /usr/bin/rofi -p dunst:
+    dmenu = /usr/bin/dmenu -p dunst:
 
     # Browser for opening urls in context menu.
-    browser = /usr/bin/brave -new-tab
+    browser = /usr/bin/firefox -new-tab
 
     # Always run rule-defined scripts, even if the notification is suppressed
     always_run_script = true
@@ -223,21 +223,21 @@
 
     context = ctrl+shift+period
 
-frame_color = "#1d1f21"
-separator_color = "#1d1f21"
+frame_color = "#E5E9F0"
+separator_color = "#E5E9F0"
 
 [base16_low]
     msg_urgency = low
-    background = "#1d1f21"
-    foreground = "#c5c8c6"
+    background = "#3B4252"
+    foreground = "#4C566A"
 
 [base16_normal]
     msg_urgency = normal
-    background = "#1d1f21"
-    foreground = "#c5c8c6"
+    background = "#434C5E"
+    foreground = "#E5E9F0"
 
 [base16_critical]
     msg_urgency = critical
-    background = "#1d1f21"
-    foreground = "#cc6666"
+    background = "#88C0D0"
+    foreground = "#ECEFF4"
 
